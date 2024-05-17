@@ -1,2 +1,2 @@
-const connect = require("../connect.js");
+const connect = require("./client.js");
 connect();
