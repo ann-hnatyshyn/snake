@@ -26,6 +26,15 @@ const handleUserInput = function(key) {
   if (key === "d") {
     connection.write("Move: right");
   }
+  if (key === "q") {
+    connection.write("Say: Yum");
+  }
+  if (key === "z") {
+    connection.write("Say: Go!");
+  }
+  if (key === "x") {
+    connection.write("Say: Food!!");
+  }
 };
 setupInput(connection);
 module.exports = setupInput;
