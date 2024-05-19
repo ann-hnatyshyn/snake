@@ -32,10 +32,10 @@ const handleUserInput = function(key) {
     connection.write("Say: Yum");
   }
   if (key === "z") {
-    connection.write("Say: Go!");
+    connection.write("Say: gluten free?");
   }
   if (key === "x") {
-    connection.write("Say: Food!");
+    connection.write("Say: lets go!");
   }
 };
 
