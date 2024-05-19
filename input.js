@@ -1,4 +1,5 @@
 const connect = require("./client.js");
+
 let connection = connect();
 
 const setupInput = (conn) => {
@@ -37,5 +38,7 @@ const handleUserInput = function(key) {
     connection.write("Say: Food!");
   }
 };
+
 setupInput(connection);
+
 module.exports = setupInput;
